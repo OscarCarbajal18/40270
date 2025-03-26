@@ -1,0 +1,11 @@
+    <svg width="200" height="200" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="150" cy="150" r="80" fill="brown" stroke="black" stroke-width="4"/>
+        <circle cx="90" cy="90" r="30" fill="brown" stroke="black" stroke-width="3"/>
+        <circle cx="210" cy="90" r="30" fill="brown" stroke="black" stroke-width="3"/>
+        <circle cx="125" cy="140" r="10" fill="white"/>
+        <circle cx="175" cy="140" r="10" fill="white"/>
+        <circle cx="125" cy="140" r="5" fill="black"/>
+        <circle cx="175" cy="140" r="5" fill="black"/>
+        <circle cx="150" cy="170" r="25" fill="white" stroke="black" stroke-width="2"/>
+        <circle cx="150" cy="165" r="5" fill="black"/>
+    </svg>
