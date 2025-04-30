@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        img {
+            box-shadow: 10px 10px 20px red;
+        }
+
+        figure{
+            display: inline-block;
+            text-align: center;
+        }
+
+        div{
+            text-align: center;
+        }
+
+    </Style>
+</head>
+<body>
+    <!-- h1{Random Picture}(figure>img[src="https://picsum.photos/id/$/200/200"]+figcaption)*2 -->
+    
+    <h1>Random Picture</h1>
+    <div id = "app">
+       <!-- <figure>
+            <img src="https://picsum.photos/id/1/200/200" alt="Machinedramon O Mugendramon">
+            <figcaption>John</figcaption> 
+        </figure> -->
+    </div>
+
+    <script>
+        // a continuacion voy a usar el api DOM de javascript
+        console.log("imprime mensaje a consola")
+
+        const x = document.getElementById("app")
+        console.log(x)
+
+         // x.innerHTML =xy(1) + xy(2) + xy(1000)
+         // for (let i =1; xy; i < 10; i++) {
+         //  x.innerHTML = x.innerHTML + xy(i)
+         // }
+
+        function imagen(id) {
+            const c = '<figure>' +
+            '<img src="https://picsum.photos/id/'+id+'/200/200" alt="Machinedramon O Mugendramon">' +
+            '<figcaption>John</figcaption>' +
+          '</figure>'
+          return c
+        }
+
+        const Picture = (id) => {
+           return `<figure>
+            <img src="https://picsum.photos/id/${id}/200/200" alt="Machinedramon O Mugendramon">
+            <figcaption>John</figcaption> 
+          </figure>`
+        }
+        // cuidar que Picture ya esta inicializada
+        x.innerHTML = Picture(1) + Picture(2) + Picture (3)
+    </script>
+</body>
+</html>
