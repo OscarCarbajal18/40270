@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos [
+    <!ELEMENT alumnos (alumno*)>
+    <!ELEMENT alumno (nombre, nacimiento)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT nacimiento (#PCDATA)>
+]>
+
+<alumnos>
+    <alumno>
+        <nombre>Juan Pérez</nombre>
+        <nacimiento>2000-05-15</nacimiento>
+    </alumno>
+
+    <alumno>
+        <nombre>Mikasa Ackerman</nombre>
+        <nacimiento>10-02-835</nacimiento>
+    </alumno>
+</alumno>
