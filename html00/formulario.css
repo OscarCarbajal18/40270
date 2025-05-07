@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+}
+
+form{
+    box-shadow: 20px 30px 40px;
+    width: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(220, 220, 220);
+    margin: auto;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(155, 12, 184);
+}
+
+input[type="button"], input[type="submit"]{
+    color: white;
+    background-color: rgb(101, 16, 150);
+}
